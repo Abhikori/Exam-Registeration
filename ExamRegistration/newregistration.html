@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newregistration.css">
+    <title>New Registration</title>
+</head>
+<body>
+    
+    <div class="top">
+        <h1>Registration Form</h1>
+    </div>
+    <form action="./TxnTest.php" method="post" enctype="multipart/form-data">
+        <div class="upper">
+            <h3>Personal Details</h3>
+        </div>
+            <table class="pdetails">
+                <tr>
+                    <td>First Name :</td>
+                    <td colspan="4"><input type="text" name="fname" id="fname" placeholder="Enter your first name" class="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td colspan="4"><input type="text" name="lname" id="lname" placeholder="Enter your last name" class="text"></td>
+                </tr>
+                <tr>
+                    <td>Email Id :</td>
+                    <td colspan="4"><input type="text" name="email" id="email" placeholder="Enter your email" class="text"></td>
+                </tr>
+                <tr>
+                    <td>Phone No. :</td>
+                    <td colspan="4"><input type="text" name="phone" id="phone" placeholder="Enter your phone number" class="text"></td>
+                </tr>
+                <tr>
+                    <td>D.O.B :</td>
+                    <td colspan="4"><input type="date" name="dob" id="dob" value="" min="1990-01-01" max="2005-12-31" class="text"></td>
+                </tr>
+                <tr>
+                    <td>Father's Name :</td>
+                    <td colspan="4"><input type="text" name="fathername" id="fathername" placeholder="Enter your father name" class="text"></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name :</td>
+                    <td colspan="4"><input type="text" name="mothername" id="mothername" placeholder="Enter your mother name" class="text"></td>
+                </tr>
+               
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender" id="gender" value="male">Male</td>
+                    <td><input type="radio" name="gender" id="gender" value="female">Female</td>
+                    <td><input type="radio" name="gender" id="gender" value="other">Other</td>
+                </tr>
+                <tr>
+                    <td>Category :</td>
+                    <td><input type="radio" name="category" id="category" value="general">General</td>
+                    <td><input type="radio" name="category" id="category" value="obc">OBC</td>
+                    <td><input type="radio" name="category" id="category" value="sc">SC</td>
+                    <td><input type="radio" name="category" id="category" value="st">ST</td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td colspan="4"><textarea name="address" id="address" cols="70" rows="5" placeholder="Enter your Address"></textarea></td>
+                </tr>
+            </table>
+
+            <div class="upper">
+                <h3>Education Details</h3>
+            </div>
+                <table class="edetails">
+                    <tr>
+                        <td>College Name :</td>
+                        <td colspan="4"><input type="text" name="clgname" id="clgname" placeholder="Enter your College name" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Course Name :</td>
+                        <td colspan="4"><input type="text" name="cname" id="cname" placeholder="Enter your Course name" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Roll No. :</td>
+                        <td colspan="4"><input type="text" name="roll" id="roll" placeholder="Enter your Roll no." class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Enrollment No. :</td>
+                        <td colspan="4"><input type="text" name="enroll" id="enroll" placeholder="Enter your enrollment no." class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Year :</td>
+                        <td colspan="4"><input type="number" name="year" id="year" placeholder="Choose your Year" class="text" min="1" max="4"></td>
+                    </tr>
+                    <tr>
+                        <td>Semester :</td>
+                        <td colspan="4"><input type="number" name="sem" id="sem" placeholder="Choose your semester" class="text" min="1" max="8"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 1 :</td>
+                        <td colspan="4"><input type="text" name="sub1" id="sub1" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 2 :</td>
+                        <td colspan="4"><input type="text" name="sub2" id="sub2" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 3 :</td>
+                        <td colspan="4"><input type="text" name="sub3" id="sub3" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 4 :</td>
+                        <td colspan="4"><input type="text" name="sub4" id="sub4" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 5 :</td>
+                        <td colspan="4"><input type="text" name="sub5" id="sub5" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject 6 :</td>
+                        <td colspan="4"><input type="text" name="sub6" id="sub6" placeholder="Enter your Subject" class="text"></td>
+                    </tr>
+                </table>
+        <div class="upper">
+            <h3>Upload your Photo and Sign</h3>
+        </div>
+        <div class="upldimg">
+            <p> Select image to upload</p>
+            <input type="file" name="imgupload" id="imgupload" class="select">
+            <!-- <input type="submit" value="Upload Image" name="imgsubmit" class="btn"> -->
+        </div>
+        <br><br>
+        <div class="upldsign">
+            <p>Select sign to upload</p>
+            <input type="file" name="signupload" id="signupload" class="select">
+            <!-- <input type="submit" value="Upload sign" name="signsubmit" class="btn"> -->
+        </div>
+        <div class="submitdoc">
+            <button type="submit" name="submit" >Submit</button>
+            <button type="reset" name="reset" style="background-color: #ff3131;">Reset</button>
+        </div>
+</form>
+    
+</body>
+</html>

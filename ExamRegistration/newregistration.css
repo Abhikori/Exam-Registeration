@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.top{
+    padding: 20px;
+    width: 99.7%;
+    height: 75px;
+    background-color: #010e79;
+    /* border: 1px solid red; */
+}
+.top h1{
+    text-align: center;
+    color: white;
+}
+.upper{
+    height: 75px;
+    width: 99.7%;
+    border: 1px solid red;
+    margin-top: 30px;
+    background-color: #b71212;
+}
+.upper h3{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    color: white;
+}
+table{
+    /* border: 1px solid red; */
+    margin: 20px 40px;
+    padding:20px 30px;
+    height: 400px;
+    width: 1000px;
+    border-collapse:collapse ;
+    /* background-color: #2f33364a; */
+}
+
+td{
+    /* border: 1px solid black; */
+    padding: 5px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    /* border-bottom: 1px solid black;  */
+}
+td:first-child{
+    width: 300px;
+}
+textarea{
+    font-size: 1.2rem
+}
+.text{
+    width: 100%;
+    height: 50px;
+    font-size: 1.4rem;
+}
+#gender {
+    height: 20px;
+    width: 40px;
+}
+#category {
+    height: 20px;
+    width: 40px;
+}
+
+
+
+
+.upldimg,.upldsign{
+    margin: 30px auto;
+    height: 150px;
+    width: 1000px;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    background-color: #5a4678;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 5px rgb(104, 102, 102),
+                inset -5px -5px 10px black;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+}
+.btn{
+    margin-top: 15px;
+    float: right;
+    height: 40px;
+    width: 200px;
+    margin-right: 100px;
+}
+.upldimg input[type='file']{
+    color: white;
+    transform: translate(430px,20px);
+    cursor: pointer;
+}
+.upldsign input[type='file']{
+    transform: translate(430px,20px);
+    cursor: pointer;
+    color: white;
+}
+
+.submitdoc button{
+    transform: translateX(400px);
+    margin: 100px 70px;
+    height: 50px;
+    width: 200px;
+    background-color: #1be01b;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: inset 2px 2px 5px rgb(255, 255, 255),
+                 2px 2px 5px black;
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav start */
+nav{
+    width: 99.7%;
+    height: 150px;
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+nav .top{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #004884;
+    padding-left: 10px;
+    background-color: #004884;
+}
+nav .bottom{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #010e79;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #010e79;
+}
+nav .bottom p{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+nav h2{
+    color: white;
+    margin-left: 580px;
+    margin-top: -30px;
+}
+
+/* nav end */
+
+
+
+.main{
+    border: 1px solid black;
+    height: 1400px;
+    width: 80%;
+    margin: 20px auto;
+}
+.card{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid yellow; */
+    margin: 20px auto;
+}
+.card h1{
+    text-align: center;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    /* margin: 20px; */
+    font-size: large;
+    height: 50px;
+}
+.persondetails td:first-child{
+    width: 300px;
+    padding-left: 20px;
+}
+.persondetails td:nth-child(2){
+    width: 600px;
+    padding-left: 20px;
+}
+
+
+
+.examdetails td:first-child{
+    width: 287px;
+    text-align: center;
+}
+
+.examdetails td:nth-child(2){
+    width: 1000px;
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.main p{
+    margin: 20px;
+    font-size: large;
+}
+.right{
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    height: 200px;
+    width: 300px;
+    margin: 5px 20px;
+    /* border: 1px solid red; */
+}
+.sign{
+    height: 80px;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.img img{
+    width: 100%;
+    height: 200px;
+    
+}
+.sign img{
+    width: 100%;
+    height: 80px;
+}
+

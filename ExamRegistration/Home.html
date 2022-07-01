@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <title>Exam Registration</title>
+</head>
+<body>
+    <nav>
+        <div class="top">
+        <h3 style="color: white;">Ministry of Education</h3>
+        <p style="color: white;">Governmnet of India</p>
+        <h2>Exam Registeration Portal</h2>
+        </div>
+        <div class="bottom">
+            <p>Home</p>
+        </div>
+    </nav>
+
+   <div class="main">
+        <div class="left">
+            <h1>Steps to apply Online</h1>
+            <hr>
+            <ol>
+            <li>Apply Online Registration Form</li>
+            <li>Fill Online Application Form</li>
+            <li>Upload Scanned Photos and Signature</li>
+            <li>Pay Examination Fees</li>
+            </ol>
+            <hr>
+            <button type="register" class="btn" onclick="window.location.href='newregistration.html'" >New Registeration</button>
+        </div>
+        <div class="right">
+            <h1>Registered Candidates</h1>
+            <hr>
+            <table>
+                <form action="./aftersignin.php" method="post">
+                    <tr>
+                        <td style="border-bottom: 1px solid black;">Appication No.</td>
+                        <td style="border-bottom: 1px solid black;"><input type="text" name="appno" id="appno"></td>
+                    </tr>
+                    <tr>
+                        <td  colspan="2"><button type="Sign In" class="btn">Sign In</button></td>
+                    </tr>
+                </form>
+            </table>
+      
+            
+        </div>
+   </div>
+</body>
+</html>

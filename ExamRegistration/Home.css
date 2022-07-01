@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav start */
+nav{
+    width: 99.7%;
+    height: 150px;
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #004884;
+    padding-left: 10px;
+    background-color: #004884;
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #010e79;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #010e79;
+}
+.bottom p{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+h2{
+    color: white;
+    margin-left: 580px;
+    margin-top: -30px;
+}
+
+/* nav end */
+
+/* main start */
+
+.main{
+    width: 99.7%;
+    height: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    width: 700px;
+    height: 540px;
+    /* border: 1px solid yellow; */
+    display: block;
+    background-color: #160d0d6e;
+}
+.right{
+    width: 700px;
+    height: 540px;
+    border: 1px solid green;
+    background-color: #160d0d6e;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #6e0808;
+    color: white;
+}
+.left ol{
+    margin: 10px 30px;
+}
+.left ol li{
+    margin: 50px 20px;
+    font-size: 1.5rem;
+    color: black;
+}
+.left button{
+    margin: 25px 220px;
+    width: 200px;
+    height: 50px;
+    background-color: #004884;
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 2px 2px 5px white,
+                inset -2px -2px 5px black;
+}
+table{
+    margin: 50px 10px;
+    width: 600px;
+    padding: 3px 2px;
+    /* border: 1px solid black; */
+}
+table td{
+    padding: 20px;
+    font-size: 1.5rem;
+    /* border: 1px solid black; */
+}
+table input{
+    width: 300px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+.right button{
+    margin: 25px 220px;
+    width: 200px;
+    height: 50px;
+    background-color: #004884;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px white,
+                inset -2px -2px 5px black;
+}
+hr{
+    border: 1px solid black;
+}
+/* main end */
